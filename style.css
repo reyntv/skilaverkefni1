@@ -12,6 +12,11 @@ body {
     font-family: var(--font);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font);
+    font-weight: 600;
+}
+
 .--hero-bg {
     background-color: var(--color2);
     padding: 30px;
@@ -29,10 +34,10 @@ body {
     background-color: var(--color4);
 }
 
-.--register-btn {
+.--ntv-btn {
     color: var(--color3);
 }
-.--register-btn:hover {
+.--ntv-btn:hover {
     color: var(--color4);
 }
 

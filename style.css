@@ -1,0 +1,49 @@
+:root {
+    --color1: #FFFFFF;
+    --color2: #666666;
+    --color3: #59A96A;
+    --color4: #FF8360;
+    --color5: #F79256;
+    --font: font-family: 'Ubuntu Mono', monospace;
+    
+}
+
+body {
+    font-family: var(--font);
+}
+
+.--hero-bg {
+    background-color: var(--color2);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.--courses-btn {
+    min-width: 250px;
+    margin: 10px;
+    background-color: var(--color2);
+    border-width: 0px;
+}
+
+.--courses-btn:hover {
+    background-color: var(--color4);
+}
+
+.--register-btn {
+    color: var(--color3);
+}
+.--register-btn:hover {
+    color: var(--color4);
+}
+
+.--news {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.--footer {
+    color: var(--color1);
+    background-color: var(--color2);
+    padding: 30px;
+    margin-top: 30px;
+}
